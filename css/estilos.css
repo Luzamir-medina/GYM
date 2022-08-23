@@ -17,6 +17,13 @@ li{
 a { 
    text-decoration: none;
 }
+html { 
+    scroll-behavior: smooth;
+
+}
+section[id]{
+    scroll-margin-top: 70px;
+}
 
 header {
    background: url("../imagenes/pareja-sana-ropa-deportiva-levantamiento-pesas-gimnasio-fondo.webp") no-repeat;
@@ -59,6 +66,7 @@ header ul li a:hover{
 }
 
 .titular{
+    position: relative;
     text-align:center;
     margin-top: 65px;
     margin: 65px;
@@ -70,16 +78,10 @@ header ul li a:hover{
     text-align:right;
     align-items:right;
 }
-.span{
+.span {
     color: #000;
 }
-.a{
-    background:black;
-    color: rgb(216, 216, 14);
-    padding:0 20px;
-    font-weight: bold;
-    font-size: 30px;
-}
+
 .a:hover{
    color: white; 
 }
@@ -112,6 +114,7 @@ h1{
 
 .tarjeta p {
     font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .img{
     width: 50%;
@@ -210,7 +213,7 @@ th, td{
     width: 100%;
     height: 100%;
 }
-#contact{
+#contact {
     background: #000;
     text-align: center;
     color: #fff;
@@ -218,12 +221,13 @@ th, td{
     
 }
 
-#contact h2{
+#contact h2 {
     margin: 0;
 }
  
-#contact i{
-    color: #b8de11;
+#contact i {
+    color: white;
+   background: none;
 }
 
 .info{
@@ -233,18 +237,74 @@ th, td{
 .info p {
      margin: 40px;
 }
+.btn-wsp {
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 10px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 55px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.facebook {
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 10px;
+    background: #232aeb;
+    color: #fff;
+    border-radius: 55px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+
+}
+.instagran {
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 10px;
+    background: #c51079;
+    color: #fff;
+    border-radius: 55px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
 #contact a {
-    background: #b8de11;
     color: #000;
     font-style: italic;
     padding: 20px 40px;
     display: inline-block;
     margin-top: 30px;
 }
-#classes-mobile{
+#classes-mobile {
     display: none;
 }
+.contenedor4 {
+    margin: 0;
+    padding: 1em;
+    overflow: hidden;
+}
+.foto-entrenador {
+    float: left;
+    margin: 33px;
+   
 
+}
 @media (max-width: 800px){
     
     .menu{
