@@ -25,12 +25,12 @@ header {
     
     
 }
-.menu{
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.logo{
+.logo {
     width: 200px;
     height: 100%;
     display:block;
@@ -39,7 +39,7 @@ header {
     opacity: 50%;
 }
 
-header ul{
+header ul {
     display: flex;
 }
 
