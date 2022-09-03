@@ -65,15 +65,18 @@ header ul li a:hover{
 
 }
 
-.titular{
+.titular {
     position: relative;
     text-align:center;
     margin-top: 40vh;
     margin: 65px;
     align-items: center;
-    color:black;
+    color:rgba(245, 241, 10, 0.67);
 
 } 
+span {
+    color: black;
+}
 
 h1{
     font-size: 80px;

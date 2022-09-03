@@ -87,30 +87,41 @@ h1 {
     margin-bottom: 50px;
 }
 #pricing {
-    display: flex;
+    display:flex;
     justify-content: center;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 .precio {
     position: relative;
 }
 .pesos{
     position: absolute;
-    left: 0px;
+    left: -3px;
+    top: -8px;;
     color:#8e8e8e;
+    font-size: 20px;
 }
+h2 {
+    
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+ }
+ h2:hover{
+   color:  rgb(216, 216, 14);
+ }
 .numero {
-    font-size: 50px;
-    color:#f33e5d;
+    font-size: 35px;
+    color:#f31e41;
 }
 .mes {
     color:#8e8e8e;
-    font-size: 13px;
+    font-size: 15px;
 }
 .tabla {
     background: #fff;
-    padding: 30px;
+    padding: 35px;
 }
 
 .carateristicas {
@@ -127,21 +138,32 @@ h1 {
     display: inline-block;
 }
 .numero2 {
-    color: #dc68c3;
+    color: #f036c8;
 
 }
 .numero3 {
-    color:#7c51c1;
+    color:#4f1e9e;
 }
 #tablados {
     position: relative;
+    box-shadow: 2px 2px 12px #ccc;
 }
 
 .cuadradosuperior {
-    width: 200px;
+    width: 253px;
     height: 40px;
     background: #fff;
     position: absolute;
     top: -40px;
-    
+    left: 0px;
+    box-shadow: -1px -4px 5px #ccc;
+}
+.cuadradoinferior {
+    width: 253px;
+    height: 40px;
+    background: #fff;
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+    box-shadow: -1px 4px 5px #ccc;
 }
