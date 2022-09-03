@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #aaa;
+    font-family: 'Montserrat';
+
+}
+
+.contenedor{
+    width: 90%;
+ max-width: 1280px;
+ margin: auto;
+}
+
+li{
+    list-style: none;
+}
+a { 
+   text-decoration: none;
+}
+html { 
+    scroll-behavior: smooth;
+
+}
+section[id]{
+    scroll-margin-top: 70px;
+}
+
+header {
+   background: url("../imagenes/pareja-sana-ropa-deportiva-levantamiento-pesas-gimnasio-fondo.webp") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 200px;
+    height: 100%;
+    display:block;
+    justify-self: right;
+    margin:auto;
+    opacity: 50%;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li{
+    margin: 0 20px;
+
+}
+
+header ul li a{
+    color: black;
+    font-weight: bold;
+   
+}
+header ul li a:hover{
+    color: black;
+
+}
+
+.titular {
+    position: relative;
+    text-align:center;
+    margin-top: 40vh;
+    margin: 65px;
+    align-items: center;
+    color:rgba(245, 241, 10, 0.67);
+
+} 
+span {
+    color: black;
+}
+
+h1 {
+    font-size: 80px;
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#pricing {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+}
+.precio {
+    position: relative;
+}
+.pesos{
+    position: absolute;
+    left: 0px;
+    color:#8e8e8e;
+}
+.numero {
+    font-size: 50px;
+    color:#f33e5d;
+}
+.mes {
+    color:#8e8e8e;
+    font-size: 13px;
+}
+.tabla {
+    background: #fff;
+    padding: 30px;
+}
+
+.carateristicas {
+    font-size: 14px;
+    color:#8e8e8e;
+}
+
+.a {
+    background: violet;
+    color:#fff;
+    text-decoration: none;
+    padding: 8px 22px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.numero2 {
+    color: #dc68c3;
+
+}
+.numero3 {
+    color:#7c51c1;
+}
+#tablados {
+    position: relative;
+}
+
+.cuadradosuperior {
+    width: 200px;
+    height: 40px;
+    background: #fff;
+    position: absolute;
+    top: -40px;
+    
+}
