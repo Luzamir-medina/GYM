@@ -1,5 +1,5 @@
-{
-    "empleados":[
+
+   { "empleados":[
     {
     "identificación":0, "nombre":"Marcelo",
     "apellido":"Silva", "salario":3200.00, "área":"SM"
