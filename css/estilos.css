@@ -14,10 +14,10 @@ body{
 li{
     list-style: none;
 }
-a { 
+a {
    text-decoration: none;
 }
-html { 
+html {
     scroll-behavior: smooth;
 
 }
@@ -29,8 +29,8 @@ header {
    background: url("../imagenes/pareja-sana-ropa-deportiva-levantamiento-pesas-gimnasio-fondo.webp") no-repeat;
     background-size: cover;
     height: 100vh;
-    
-    
+
+
 }
 .menu {
     display: flex;
@@ -58,7 +58,7 @@ header ul li{
 header ul li a{
     color: black;
     font-weight: bold;
-   
+
 }
 header ul li a:hover{
     color: black;
@@ -73,7 +73,7 @@ header ul li a:hover{
     align-items: center;
     color:rgba(245, 241, 10, 0.67);
 
-} 
+}
 span {
     color: black;
 }
@@ -139,7 +139,7 @@ table{
 .blanco, th {
     background: #fff;
 }
-    
+
 th, td{
     padding: 20px 0;
     font-style: italic;
@@ -147,7 +147,7 @@ th, td{
 
 .gris{
     background:#e8e8e8;
- 
+
 }
 .negrita{
     font-weight: bold;
@@ -184,7 +184,7 @@ th, td{
     position: relative;
     overflow: hidden;
  }
- 
+
  .oculto{
     position: absolute;
     top: 0;
@@ -213,13 +213,13 @@ th, td{
     text-align: center;
     color: #fff;
     padding: 80px;
-    
+
 }
 
 #contact h2 {
     margin: 0;
 }
- 
+
 #contact i {
     color: white;
    background: none;
@@ -309,16 +309,19 @@ th, td{
     width: fit-content;
     margin: auto;
     overflow: hidden;
-    
-}
-.foto-entrenador {
-    float: left;
-    margin: 50px;
-   
 
 }
+.foto-entrenador {
+    display: flex;
+    float: left;
+    height: 250px;
+    margin: 85px;
+    width: 150px;
+}
+
+
 @media (max-width: 800px){
-    
+
     .menu{
         padding-top: 10px;
     }
@@ -326,15 +329,15 @@ th, td{
     header ul {
         flex-direction: column;
         margin-top: 30px;
-        
+
     }
     header ul li a{
         color:#fff;
-       
+
     }
     .titular{
      text-align: center;
-        
+
     }
     .titular .span{
        color: white;
@@ -356,13 +359,13 @@ th, td{
         top: 45px;
         left: 0;
         display: none;
-        
+
     }
 
     nav ul li{
         margin-bottom: 20px;
-    } 
-   
+    }
+
     h1{
         font-size: 34px;
     }
@@ -370,10 +373,10 @@ th, td{
     .contenedor-tarjetas, #galeria{
         flex-direction: column;
     }
-    
+
     .tarjeta{
         width: 100%;
-    } 
+    }
 
     #segunda-tarjeta{
         margin: 0;
@@ -395,7 +398,7 @@ th, td{
         display: block;
         text-align: center;
     }
-    
+
     #galeria .foto{
         width: 100%;
     }
