@@ -6,7 +6,7 @@ body{
 }
 
 .contenedor{
-    width: 90%;
+    width: 100%;
  max-width: 1280px;
  margin: auto;
 }
@@ -16,6 +16,7 @@ li{
 }
 a {
    text-decoration: none;
+
 }
 html {
     scroll-behavior: smooth;
@@ -26,8 +27,9 @@ section[id]{
 }
 
 header {
-   background: url("..") no-repeat;
+   background: url("../imagenes/INSTRUCTORES VIVEFIT.jpg") no-repeat;
     background-size: cover;
+    width: 100%;
     height: 100vh;
 
 
@@ -38,7 +40,7 @@ header {
     justify-content: space-between;
 }
 .logo {
-    width: 200px;
+    width: 120px;
     height: 100%;
     display:block;
     justify-self: right;
@@ -56,12 +58,12 @@ header ul li{
 }
 
 header ul li a{
-    color: black;
+    color: white;
     font-weight: bold;
 
 }
 header ul li a:hover{
-    color: black;
+    color:#f1cd1b;
 
 }
 
@@ -69,21 +71,18 @@ header ul li a:hover{
     position: relative;
     text-align:center;
     margin-top: 40vh;
+    color: yellow;
     margin: 65px;
     align-items: center;
-    color:rgba(245, 241, 10, 0.67);
+    opacity: 30%;
 
-}
-span {
-    color: black;
 }
 
 h1{
-    font-size: 80px;
+    font-size: 34px;
     font-style: italic;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 50px;
+     width: 80%;
+     margin:auto;
 }
 
 .contenedor-tarjetas{
@@ -97,7 +96,7 @@ h1{
     width: 28%;
     margin-top: -100px;
     background: #fff;
-    padding: 40px;
+    padding: 40px 0;
     border-radius: 6px;
 }
 
@@ -305,19 +304,61 @@ th, td{
 #classes-mobile {
     display: none;
 }
+
+.menu-icon{
+    display: none;
+}
+
 .contenedor4 {
     width: fit-content;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
     margin: auto;
     overflow: hidden;
 
 }
-.foto-entrenador {
+
+.entrenador{
+    width: fit-content;
+    justify-content: space-around;
+    width: 100%;
     display: flex;
-    float: left;
-    height: 250px;
-    margin: 85px;
-    width: 150px;
+    max-width: 1100px;
 }
+
+.fit{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow:0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    }
+
+    .fit:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%);
+    }
+     .fit img{
+            width: 100%;
+            height: 210px;
+        }
+     .fit .contenido{
+        padding: 15px;
+        text-align: center;
+     }
+  .fit .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+  }
+  .fit .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+
 
 
 @media (max-width: 800px){
@@ -325,6 +366,17 @@ th, td{
     .menu{
         padding-top: 10px;
     }
+
+        .menu-icon {
+            display: block;
+            width: 72px;
+            height: 85px;
+        }
+
+      header{
+        width: 119%;
+        height: 64vh;
+      }
 
     header ul {
         flex-direction: column;
@@ -345,6 +397,9 @@ th, td{
     .titular .a{
         margin-top: -100px;
     }
+.titular h1{
+    font-size: 85%;
+}
 
     .logo{
         width: 100px;
