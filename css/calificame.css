@@ -15,10 +15,10 @@ body{
 li{
     list-style: none;
 }
-a { 
+a {
    text-decoration: none;
 }
-html { 
+html {
     scroll-behavior: smooth;
 
 }
@@ -27,12 +27,13 @@ section[id]{
 }
 
 header {
-   background: url("../imagenes/pareja-sana-ropa-deportiva-levantamiento-pesas-gimnasio-fondo.webp") no-repeat;
+    background: url("../imagenes/INSTRUCTORES VIVEFIT.jpg") no-repeat;
     background-size: cover;
-    height: 100vh;
-    
-    
+    width: 200;
+    height: 150vh;
+
 }
+
 .menu {
     display: flex;
     align-items: center;
@@ -57,37 +58,14 @@ header ul li{
 }
 
 header ul li a{
-    color: black;
+    color:white;
     font-weight: bold;
-   
+
 }
 header ul li a:hover{
-    color: black;
+    color:#ad980b;
 
 }
-
-.titular {
-    position: relative;
-    text-align:center;
-    margin-top: 40vh;
-    margin: 65px;
-    align-items: center;
-    color:rgba(245, 241, 10, 0.67);
-
-} 
-span {
-    color: black;
-}
-
-h1 {
-    font-size: 80px;
-    font-style: italic;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 50px;
-}
-
-
 #pricing {
     display:flex;
     justify-content: center;
@@ -102,15 +80,15 @@ h1 {
     display: flex;
     justify-content: center;
     text-align: center;
-
-
 }
+
 .logo2  h2 {
     text-decoration: none;
     color:rgb(0, 0, 0);
-    font-size: 24px;
+    font-size: 35px;
     margin-left: 10px;
 }
+
 .container {
     width: 100%;
     max-width: 1150px;
@@ -122,13 +100,13 @@ h1 {
 }
 .tabla {
     background: rgba(0,0,0,.7);
-    width: 350px;
+    width: 260px;
     color: #fff;
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
     overflow: hidden;
-    transition: .5s;
+    transition: .7s;
 }
 .tabla:hover {
     transform: scale(1.05);
@@ -142,13 +120,13 @@ h1 {
      margin-bottom: 10px;
 }
 .titulo h2 {
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
 .precio {
     padding: 10px 0;
-   
+
 }
 
 .precio h3 {
@@ -158,7 +136,7 @@ h1 {
 
 .precio h3 {
     font-size: 50px;
-    margin-left: 5px;  
+    margin-left: 5px;
 }
  i {
     color: #ad980b;
@@ -167,7 +145,6 @@ h1 {
 .descripcion {
     list-style: none;
     padding: 10px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, .5);
 }
 
 .comprar a {
@@ -197,6 +174,15 @@ h1 {
 .tabla:nth-child(3) .precio h3 {
    color: #ff4032;
 }
+.tabla:nth-child(4) .titulo,
+.tabla:nth-child(4) .comprar a{
+        background:orangered;
+
+}
+
+.tabla:nth-child(4) .precio h3 {
+   color: orangered;
+}
 
 
 
@@ -214,7 +200,7 @@ h1 {
     position: relative;
     overflow: hidden;
  }
- 
+
  .oculto{
     position: absolute;
     top: 0;
@@ -237,4 +223,7 @@ h1 {
 .img-hover{
     width: 100%;
     height: 100%;
+}
+.menu-icon {
+    display: none;
 }
