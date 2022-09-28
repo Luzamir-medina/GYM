@@ -21,7 +21,6 @@
             integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/calificame.css">
-<script src="js/javascript.js"></script>
 </head>
 <body>
     <header>
@@ -78,6 +77,7 @@
             <div class="descripcion">
                 <p>Adquierelo Ahora
                   <br>  y ten descuento 10% por 3 meses </p>
+
             </div>
             <div class="comprar">
                 <a href="#">COMPRAR</a>
@@ -112,6 +112,17 @@
                 <p>Adquierelo Ahora
                     <br> y opten 1 mes gratis 🎉
                 </p>
+                <form>
+                <br>
+                <input  id="angie" type="radio" name="entrenador" value="angie"/>
+                <label for="angie"> ANGIE</label>
+                <br>
+                <input id="rigo" type="radio" name="entrenador" value="rigo"/>
+                <label for="rigo"> RIGO  </label>
+                <br>
+
+                </form>
+
             </div>
             <div class="comprar">
                 <a href="#">COMPRAR</a>
@@ -122,19 +133,19 @@
         <div class="foto">
            <img class="img-hover" src="imagenes/ANGIE AHORA.jpg" alt="ANGIE">
            <div class="oculto">
-            <h4> VIVE_FIT_GYM</h4>
+            <h4>ANGIE</h4>
            </div>
         </div>
         <div class="foto">
             <img class="img-hover" src="imagenes/CLAUDIA AHORA.jpg" alt="CLAUDIA">
             <div class="oculto">
-                <h4> VIVE_FIT_GYM</h4>
+                <h4>CLAUDIA</h4>
             </div>
          </div>
          <div class="foto">
             <img class="img-hover" src="imagenes/Parra7.jpg" alt="Parra6">
             <div class="oculto">
-                <h4> VIVE_FIT_GYM</h4>
+                <h4> PARRA </h4>
             </div>
          </div>
          <div class="foto">
@@ -216,134 +227,145 @@
 
       })
 
-    </script>
-    <footer id="calificacion">
-        <div class="col-12"><br>
-            <div class="card">
-                <div class="card-header">
-                    <h2>CALIFICACI&Oacute;N ESTRELLA</h2>
-                </div>
-                <div class="card-body">
-                    <div class="col-12">
-                        <table class="table" id="tabla_calificacion">
-                            <thea class="thead-dark">
-                                <tr>
-                                    <th>#</th>
-                                    <th>Nombre y Apellido</th>
-                                    <th>Calificaci&oacute;n</th>
-                                    <th>Puntaje</th>
-                                    <th>Acci&oacute;n</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>VIVE-FIT-GYM</td>
-                                    <td>
-                                        <span class="fa fa-star" style="cursor: pointer;" id="1VIVE-FIT-GYM"></span>
+ </script>
 
-                                        <span class="fa fa-star" style="cursor: pointer;" id="2VIVE-FIT-GYM"></span>
+<footer id="calificacion">
+ <div class="col-12"><br>
+  <div class="card">
+    <div class="card-header">
+      <h2>CALIFICACI&Oacute;N ESTRELLA</h2>
+       </div>
+   <div class="card-body">
+    <div class="col-12">
+    <table class="table" id="tabla_calificacion">
+    <thea class="thead-dark">
+    <tr>
+    <th>#</th>
+    <th>Nombre y Apellido</th>
+    <th>Calificaci&oacute;n</th>
+    <th>Puntaje</th>
+    <th>Acci&oacute;n</th>
+     </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>1</td>
+    <td>VIVE-FIT-GYM</td>
+    <td>
+    <span class="fa fa-star" style="cursor: pointer;" id="1VIVE-FIT-GYM"></span>
 
-                                        <span class="fa fa-star" style="cursor: pointer;" id="3VIVE-FIT-GYM"></span>
+    <span class="fa fa-star" style="cursor: pointer;" id="2VIVE-FIT-GYM"></span>
 
-                                        <span class="fa fa-star" style="cursor: pointer;" id="4VIVE-FIT-GYM"></span>
+    <span class="fa fa-star" style="cursor: pointer;" id="3VIVE-FIT-GYM"></span>
 
-                                        <span class="fa fa-star" style="cursor: pointer;" id="5VIVE-FIT-GYM"></span>
-                                    </td>
-                                    <td>
-                                        <input type="text" class="calificacion form-control" disabled>
-                                    </td>
-                                    <td>
-                                        <button class=" ver btn btn-primary" >Calificar</button>
-                                    </td>
-                                </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>ANGIE</td>
-                                        <td>
-                                            <span class="fa fa-star" style="cursor: pointer;" id="1ANGIE"></span>
+    <span class="fa fa-star" style="cursor: pointer;" id="4VIVE-FIT-GYM"></span>
 
-                                            <span class="fa fa-star" style="cursor: pointer;" id="2ANGIE"></span>
+    <span class="fa fa-star" style="cursor: pointer;" id="5VIVE-FIT-GYM"></span>
+    </td>
+    <td>
+    <input type="text" class="calificacion form-control" disabled>
+    </td>
+    <td>
+    <button class=" ver btn btn-primary" >Calificar</button>
+     </td>
+     </tr>
+     <tr>
+    <tr>
+        <td>2</td>
+        <td>ANGIE</td>
+        <td>
+            <span class="fa fa-star" style="cursor: pointer;" id="1ANGIE"></span>
 
-                                            <span class="fa fa-star" style="cursor: pointer;" id="3ANGIE"></span>
+            <span class="fa fa-star" style="cursor: pointer;" id="2ANGIE"></span>
 
-                                            <span class="fa fa-star" style="cursor: pointer;" id="4ANGIE"></span>
+            <span class="fa fa-star" style="cursor: pointer;" id="3ANGIE"></span>
 
-                                            <span class="fa fa-star" style="cursor: pointer;" id="5ANGIE"></span>
-                                        </td>
-                                        <td>
-                                        <input type="text" class="calificacion form-control" disabled>
-                                        </td>
-                                        <td>
-                                            <button class="ver btn btn-primary" >Calificar</button>
-                                        </td>
-                                    </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>RIGO</td>
-                                            <td>
-                                                <span class="fa fa-star" style="cursor: pointer;" id="1RIGO"></span>
+            <span class="fa fa-star" style="cursor: pointer;" id="4ANGIE"></span>
 
-                                                <span class="fa fa-star" style="cursor: pointer;" id="2RIGO"></span>
+            <span class="fa fa-star" style="cursor: pointer;" id="5ANGIE"></span>
+        </td>
+        <td>
+            <input type="text" class="calificacion form-control" disabled>
+        </td>
+        <td>
+            <button class=" ver btn btn-primary">Calificar</button>
+        </td>
+    </tr>
+    <tr>
+    <tr>
+    <tr>
+        <td>3</td>
+        <td>RIGO</td>
+        <td>
+            <span class="fa fa-star" style="cursor: pointer;" id="1RIGO"></span>
 
-                                                <span class="fa fa-star" style="cursor: pointer;" id="3RIGO"></span>
+            <span class="fa fa-star" style="cursor: pointer;" id="2RIGO"></span>
 
-                                                <span class="fa fa-star" style="cursor: pointer;" id="4RIGO"></span>
+            <span class="fa fa-star" style="cursor: pointer;" id="3RIGO"></span>
 
-                                                <span class="fa fa-star" style="cursor: pointer;" id="5RIGO"></span>
-                                            </td>
-                                             <td>
-                                            <input type="text" class="calificacion form-control" disabled>
-                                            </td>
-                                            <td>
-                                                <button class="ver btn btn-primary" >Calificar</button>
-                                            </td>
-                                        </tr>
-                            </tbody>
-                        </table>
+            <span class="fa fa-star" style="cursor: pointer;" id="4RIGO"></span>
 
-                    </div>
+            <span class="fa fa-star" style="cursor: pointer;" id="5RIGO"></span>
+        </td>
+        <td>
+            <input type="text" class="calificacion form-control" disabled>
+        </td>
+        <td>
+            <button class=" ver btn btn-primary">Calificar</button>
+        </td>
+    </tr>
+    <tr>
 
-                </div>
+     </tbody>
+    </table>
 
+  </div>
 
-                </div>
+   </div>
+</div>
+ </div>
 
+        <div>
+            <h2>Estamos Hubicados:</h2>
+            <p>Transversal 5 # 11B 45 La Badea Dosquebradas Risaralda</p>
+            <a href="http://https://www.google.com/maps/place/4%C2%B049'29.1%22N+75%C2%B041'43.5%22W/@4.8247553,-75.6976054,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x76fe2f362ec3b8f9!8m2!3d4.8247453!4d-75.6954262?hl=es"></a>
 
         </div>
 
 
     </footer>
-</body>
+
     <script>
-        $('#tabla_calificacion').on('click',' tr .ver',function(){
-           let row = $(this).closest("tr");
-           let nombre = row.find("td:eq(1)").text();
-           let calificacion = row.find(".calificacion").val();
-           alert("La calificacion de "+nombre+ " es de " +calificacion+" Estrella");
-        });
 
-         $('#tabla_calificacion').on('click',' tr .fa-star',function(e){
-            let count;
-            count=e.currentTarget.id[0];
-            let nombre = e.currentTarget.id.substring(1);
-             let row = $(this).closest("tr");
-             row.find('.calificacion').val(count);
-                for (let i = 0; i < 5; i++) {
-                    if (i < count) {
-                     document.getElementById((i + 1) + nombre).style.color = "orange";
-                 } else {
-                     document.getElementById((i + 1) + nombre).style.color = "black";
-                 }
-                }
+  $('#tabla_calificacion').on('click', ' tr .ver', function () {
+      let row = $(this).closest("tr");
+      let nombre = row.find("td:eq(1)").text();
+      let calificacion = row.find(".calificacion").val();
+      alert("La calificacion de " + nombre + " es de " + calificacion + " Estrella");
+ });
 
-            });
+  $('#tabla_calificacion').on('click', ' tr .fa-star', function (e) {
+    let count;
+    count = e.currentTarget.id[0];
+    let nombre = e.currentTarget.id.substring(1);
+    let row = $(this).closest("tr");
+    row.find('.calificacion').val(count);
+    for (let i = 0; i < 5; i++) {
+         if (i < count) {
+      document.getElementById((i + 1) + nombre).style.color = "orange";
+         } else {
+         document.getElementById((i + 1) + nombre).style.color = "black";
+       }
+       }
+
+     });
 
     </script>
+</body>
 
 <!-- Option 2: Separate Popper and Bootstrap JS -->
-            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script> -->
 
 </html>
