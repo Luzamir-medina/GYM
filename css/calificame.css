@@ -3,7 +3,6 @@ body{
     padding: 0;
     background: #aaa;
     font-family: 'Montserrat';
-
 }
 
 .contenedor{
@@ -229,21 +228,40 @@ header ul li a:hover{
 }
 
 .col-12{
-
+    background: black;
+    color: #fff;
 }
-
 .card{
-
+  background: black;
+  color: #fff;
 }
 
-.card-header{
+.calificacion{
+    background: black;
+    color: #fff;
+}
+.card-header h2{
+  color: #fff;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 
 }
 
 .table{
+    background: black;
+        color: #fff;
 
 }
 
 .thead-dark{
-    
+    background: black;
+    color: #fff;
+}
+.address{
+    background: black;
+    color: #fff;
+    text-align: center;
 }
