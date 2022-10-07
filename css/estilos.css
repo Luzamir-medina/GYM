@@ -29,11 +29,9 @@ section[id]{
 header {
    background: url("../imagenes/INSTRUCTORES VIVEFIT.jpg") no-repeat;
     background-size: cover;
-    width: 200;
-    height: 150vh;
-
-
+    height: 120vh;
 }
+
 .menu {
     display: flex;
     align-items: center;
@@ -45,7 +43,7 @@ header {
     display:block;
     justify-self: right;
     margin:auto;
-    opacity: 50%;
+    opacity: 14%;
 }
 
 header ul {
